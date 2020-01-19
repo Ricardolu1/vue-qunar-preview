@@ -12,23 +12,17 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: {
-        main:Home
-      }
+      component:Home
     },
     {
       path: '/city',
       name: 'City',
-      component:{
-        main:City
-      }
+      component:City
     },
     {
       path: '/detail/:id',
       name: 'Detail',
-      component: {
-        main:"Detail"
-      }
+      component:Detail
     }
   ],
   scrollBehavior (to, from, savedPosition) {
